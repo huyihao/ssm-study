@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="F:/mybatis/《Java EE互联网轻量级框架整合开发》源码/project-lib/mybatis-3.4.1.jar"/>
+	<classpathentry kind="lib" path="F:/mybatis/《Java EE互联网轻量级框架整合开发》源码/project-lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="F:/mybatis/《Java EE互联网轻量级框架整合开发》源码/project-lib/log4j-api-2.3.jar"/>
+	<classpathentry kind="lib" path="F:/mybatis/《Java EE互联网轻量级框架整合开发》源码/project-lib/log4j-core-2.3.jar"/>
+	<classpathentry kind="lib" path="F:/mybatis/《Java EE互联网轻量级框架整合开发》源码/project-lib/cglib-3.2.5.jar"/>
+	<classpathentry kind="lib" path="F:/mybatis/《Java EE互联网轻量级框架整合开发》源码/project-lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="F:/mybatis/《Java EE互联网轻量级框架整合开发》源码/project-lib/javassist-3.20.0-GA.jar"/>
+	<classpathentry kind="lib" path="F:/mybatis/《Java EE互联网轻量级框架整合开发》源码/project-lib/ognl-3.1.8.jar"/>
+	<classpathentry kind="lib" path="F:/mybatis/《Java EE互联网轻量级框架整合开发》源码/project-lib/slf4j-api-1.7.21.jar"/>
+	<classpathentry kind="lib" path="F:/mybatis/《Java EE互联网轻量级框架整合开发》源码/project-lib/slf4j-log4j12-1.7.21.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
