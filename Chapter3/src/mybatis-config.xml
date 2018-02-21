@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration   PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+  <typeAliases><!-- 别名 -->
+      <!-- 数据表映射的POJO文件 -->
+      <typeAlias alias="role" type="com.learn.ssm.chapter3.pojo.Role"/>
+  </typeAliases>
+  
+  <!-- 数据库环境 -->
+  <environments default="development">
+    <environment id="development">
+      <!-- 事务管理器，采用MyBatis的JDBC管理器方式 -->
+      <transactionManager type="JDBC"/>
+      <!-- 配置数据库，type="POOLED"代表采用MyBatis内部提供的连接池方式 -->
+      <dataSource type="POOLED">
+        <property name="driver" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/chapter3"/>
+        <property name="username" value="root"/>
+        <property name="password" value="root"/>
+      </dataSource>
+    </environment>
+  </environments>
+  
+  <!-- 映射文件 -->
+  <mappers>
+    <!-- 和指定的RoleMapper.xml文件的内容直接放这里的效果相同 -->
+    <mapper resource="com/learn/ssm/chapter3/mapper/RoleMapper.xml"/>
+    <mapper class="com.learn.ssm.chapter3.mapper.RoleMapper2"/> 
+  </mappers>
+</configuration>
